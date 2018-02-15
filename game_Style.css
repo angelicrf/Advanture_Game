@@ -1,28 +1,31 @@
 html{
     background-color: #1d1d4a;
+    font-family: 'Spicy Rice', cursive;
 }
-#emP{
-    float: right;
+#emP {
+    display:inline-block;
     width: 470px;
     height: 360px;
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 20px;
     position: relative;
     -webkit-backface-visibility: hidden;
     background-color: #c6c9d6;
     border-radius: 10px;
-    transition: transform 0.5s ease; 
+    margin-left:170px;
+    visibility:hidden;
 }
 #boat{
-    position: relative;
-    margin-left: -510px;
-    margin-bottom: 225px;
+    position: absolute;
+    top:use 250px;
+    left: 353px;
     
 }
 #trH{
-    position: relative;
-    margin-left: 50px;
-    margin-top: -600px; 
+    
+    position: absolute;
+    top: 500px;
+    left: 130px;
     width:200px;
     
     
@@ -34,8 +37,18 @@ html{
     width:850px;
     border:2px solid black;
     border-radius: 15px;
+    display:inline-block;
 }
 #display{
     color: #dd3153;
     font-size: 25px;
+}
+.container{
+    display:flex;
+
+}
+
+#img_2 > img{
+    
+    height:150px;
 }
